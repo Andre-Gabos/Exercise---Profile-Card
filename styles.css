@@ -1,0 +1,92 @@
+body {
+    background-color: hsl(185, 75%, 39%);
+    font-size: 18px;
+    font-family: 'Kumbh Sans', sans-serif;
+    overflow: hidden;
+}
+
+.top-ball {
+    position: absolute;
+    right: 700px;
+    bottom: 230px;
+}
+
+.bottom-ball {
+    position: absolute;
+
+    left: 600px;
+    top: 270px;
+}
+
+hr {
+    border-top: 1px solid hsl(0, 0%, 59%);
+    opacity: 30%;
+    margin: 20px auto 25px auto;
+    
+}
+
+p {
+    color: hsl(229, 23%, 23%);
+    margin: 0;
+    font-weight: 700;
+}
+
+.thin {
+    color: hsl(227, 10%, 46%);
+    font-weight: 400;
+}
+
+.card {
+    border-radius: 15px;
+    position: relative;
+    background-color: white;
+    height: 365px;
+    width: 340px;
+    text-align: center;
+    margin: 100px auto;
+}
+
+.pattern {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    width: 340px;
+}
+
+.profile {
+    border-radius: 100px;
+    border: 5px solid white;
+    position: absolute;
+    left: 117px;
+    top: 80px;
+}
+
+.name {
+    margin-top: 60px;
+    line-height: 1.7;
+}
+
+.small{
+    font-size: 14px;
+
+}
+
+.smaller{
+    font-size: 11px;
+    font-stretch: extra-expanded;
+}
+
+.flex-container {
+    display: flex;
+    gap: 70px;
+    justify-content: center;
+    line-height: 1.5;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
